@@ -1,0 +1,44 @@
+body {
+    font-size: 15pt;
+}
+
+* {
+    font-family: monospace, serif;
+    text-align: center;
+}
+
+#list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  font-size: 13px;
+}
+
+.item {
+  width: 90%;
+  background-color: #eeeeee;
+  margin: 10px 0;
+  font-size: 12px;
+  border: 1px solid #323232;
+  padding: 10px 3px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 1px 1px 4px #d3d3d3;
+}
+
+.index {
+  position: absolute;
+  color: #86868665;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: #ffff00aa;
+}
